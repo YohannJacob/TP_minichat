@@ -1,0 +1,79 @@
+h1, h3{
+    margin-left: 40px;
+}
+
+.content{
+    display: flex;
+}
+
+form {
+    color: rgb(108, 108, 108);
+    border-right: 1px solid grey;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+form p{
+    font-size: 14px;
+}
+
+#pseudo_post, #message_post{ 
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+#bt_post{
+    background-color: rgb(77, 178, 215);
+    border: none;
+    color: white;
+    width: 250px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+#date{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 5px;
+}
+#message{
+    background-color: rgb(199, 199, 199);
+    padding: 8px 20px 8px 20px;
+}
+
+#pseudo{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+ul{
+    width: 400px;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+li:nth-child(odd) {
+    align-items: flex-end;
+    text-align: right;
+}
+li:nth-child(even) {
+    color: blue;
+    align-items: flex-end;
+    text-align: left;
+}
