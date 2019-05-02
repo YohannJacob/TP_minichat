@@ -1,6 +1,3 @@
-<!-- Commencer par tous le code PHP qui ne nécéssite pas de concaténation ou d'HTML
-Donc commencer par les appels vers la base de donnée, cette méthode permet de n'avoir qu'un seul fichier php -->
-
 <?php
 session_start();
 // Appel vers la base de donnée
